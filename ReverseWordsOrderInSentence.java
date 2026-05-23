@@ -1,6 +1,6 @@
 package SDET_Strings;
 
-public class ReverseWordsInSentence {
+public class ReverseWordsOrderInSentence {
     public static void main(String[] args) {
         System.out.println(revWords("apple banana kiwi")); // kiwi banana apple
         System.out.println(revWords("I am John Doe")); // Doe John am I
