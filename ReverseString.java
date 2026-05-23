@@ -9,5 +9,4 @@ public class ReverseString {
         }
         System.out.println("revers string is: "+rev);
     }
-
 }
