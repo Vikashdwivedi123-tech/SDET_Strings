@@ -1,6 +1,6 @@
 package SDET_Strings;
 
-public class ReverseSentence {
+public class ReverseWordsInSentence {
     public static void main(String[] args) {
         System.out.println(revWords("apple banana kiwi")); // kiwi banana apple
         System.out.println(revWords("I am John Doe")); // Doe John am I
@@ -15,7 +15,7 @@ public class ReverseSentence {
         // loop over the array from back
         for(int i = words.length - 1; i >= 0; i--) {
             // add words to res with space
-            res.append(words[i]).append(" ");
+            res.append(words[i]).append(" "); // just reversing the word and adding space in the end!
         }
 
         // trim needed to remove last space in the end
